@@ -1,0 +1,21 @@
+
+[AtCoder]
+  ContestID = "abc174"
+  ContestURL = "https://atcoder.jp/contests/abc174"
+  TaskID = "abc174_b"
+  TaskName = "B - Distance "
+  TaskURL = "https://atcoder.jp/contests/abc174/tasks/abc174_b"
+
+[Environment]
+  BuildCmd = ""
+  BuildCmdOnDocker = ""
+  CleanCmd = ""
+  Cmd = "python3 -B main.py"
+  CmdOnDocker = "python -B main.py"
+  DockerImage = "docker.io/sachaos/atcoder-python3:latest"
+  Key = "python3"
+  Language = "Python3 (3.8.2)"
+  LanguageCode = "4006"
+  Note = ""
+  SrcName = "main.py"
+  Template = "internal/python3/main.py"
