@@ -1,0 +1,21 @@
+
+[AtCoder]
+  ContestID = "abc170"
+  ContestURL = "https://atcoder.jp/contests/abc170"
+  TaskID = "abc170_c"
+  TaskName = "C - Forbidden List"
+  TaskURL = "https://atcoder.jp/contests/abc170/tasks/abc170_c"
+
+[Environment]
+  BuildCmd = ""
+  BuildCmdOnDocker = ""
+  CleanCmd = ""
+  Cmd = "python3 -B main.py"
+  CmdOnDocker = "python -B main.py"
+  DockerImage = "docker.io/sachaos/atcoder-python3:latest"
+  Key = "python3"
+  Language = "Python3 (3.8.2)"
+  LanguageCode = "4006"
+  Note = ""
+  SrcName = "main.py"
+  Template = "internal/python3/main.py"
